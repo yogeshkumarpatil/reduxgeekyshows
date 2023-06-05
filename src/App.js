@@ -1,14 +1,15 @@
 import './App.css';
-import {useState} from "react"
+// import Coin from './features/coin/Coin';
+import Counter from './features/counter/Counter';
+
+
 
 function App() {
+  
   return (
     <div className="App">
-      <button className='button' aria-label='Increment value' onClick={() => {}}> + </button>
-
-      <span className="value">0</span>
-       
-      <button className='button' aria-label='Decrenebt value' onClick={() => {}}> - </button>
+     <Counter />
+     {/* <Coin /> */}
     </div>
   );
 }
